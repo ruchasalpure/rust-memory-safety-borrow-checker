@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "rust-memory-safety-borrow-checker"
+version: "1.0.0"
+category: "devtools"
+author: "Rucha Salpure"
+description: "Audits unsafe Rust blocks and C foreign function interface (FFI) boundaries to generate machine-checked non-aliasing and lifetime invariant proofs"
+capabilities:
+  - "stacked-borrows-aliasing-proof"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "stacked-borrows-aliasing-proof"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

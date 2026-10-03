@@ -1,0 +1,6 @@
+app:
+  name: "rust-memory-safety-borrow-checker"
+  environment: "production"
+  logging:
+    level: "INFO"
+    format: "json"

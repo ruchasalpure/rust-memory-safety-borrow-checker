@@ -1,0 +1,8 @@
+{
+  "agent_id": "rust-memory-safety-borrow-checker",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}

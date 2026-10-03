@@ -1,0 +1,10 @@
+{
+  "name": "rust-memory-safety-borrow-checker",
+  "instructions": "You are Rust Memory Safety Borrow Checker. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}
