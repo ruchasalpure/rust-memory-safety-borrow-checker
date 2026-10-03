@@ -1,5 +1,0 @@
-domain_knowledge:
-  category: "devtools"
-  agent: "rust-memory-safety-borrow-checker"
-  ontology: "OpenGAP Core Ontology v1.0"
-  indexed_entities: 1024

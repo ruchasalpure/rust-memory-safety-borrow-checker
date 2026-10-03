@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: rust-memory-safety-borrow-checker
-runtime: python3.11
-entrypoint: agent.py

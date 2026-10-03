@@ -1,5 +1,0 @@
-{
-  "name": "rust-memory-safety-borrow-checker",
-  "service": "aws-kiro",
-  "version": "1.0.0"
-}

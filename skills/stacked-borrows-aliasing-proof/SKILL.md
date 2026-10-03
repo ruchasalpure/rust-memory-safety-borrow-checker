@@ -1,17 +1,25 @@
 ---
-name: "stacked-borrows-aliasing-proof"
-description: "Analyzes raw pointer provenance and Stacked Borrows operational semantics to detect undefined behavior"
-version: "1.0.0"
-category: "devtools"
+name: stacked-borrows-aliasing-proof
+description: Specialized capability for Rust Memory Safety Borrow Checker.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: devtools
 ---
 
-# Skill: stacked-borrows-aliasing-proof
+# Rust Memory Safety Borrow Checker — STACKED BORROWS ALIASING PROOF Skill
 
-## Overview
-Analyzes raw pointer provenance and Stacked Borrows operational semantics to detect undefined behavior.
+## Purpose
+The `stacked-borrows-aliasing-proof` capability provides high-assurance execution routines for `Rust Memory Safety Borrow Checker`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.
